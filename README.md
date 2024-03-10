@@ -38,6 +38,7 @@ Then visit `http://localhost:8765` to see the welcome page.
 
 Since this skeleton is a starting point for your application and various files
 would have been modified as per your needs, there isn't a way to provide
+
 automated upgrades, so you have to do any updates manually.
 
 ## Configuration
