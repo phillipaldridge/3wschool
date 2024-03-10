@@ -21,12 +21,12 @@ class W3chapterPathsFixture extends TestFixture
             [
                 'id' => 1,
                 'w3chapter_id' => 1,
-                'w3chapter2_id' => 1,
+                'w3targetchapter_id' => 1,
                 'w3chapter_rule_id' => 1,
                 'w3chapter_action_id' => 1,
                 'score' => 1,
-                'created' => '2023-08-19 08:42:14',
-                'modified' => '2023-08-19 08:42:14',
+                'created' => '2024-03-03 10:59:24',
+                'modified' => '2024-03-03 10:59:24',
             ],
         ];
         parent::init();

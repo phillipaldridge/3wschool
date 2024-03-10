@@ -3,16 +3,16 @@ declare(strict_types=1);
 
 namespace App\Test\TestCase\Controller;
 
-use App\Controller\W3chaptersController;
+use App\Controller\W3ChaptersController;
 use Cake\TestSuite\IntegrationTestTrait;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Controller\W3chaptersController Test Case
+ * App\Controller\W3ChaptersController Test Case
  *
- * @uses \App\Controller\W3chaptersController
+ * @uses \App\Controller\W3ChaptersController
  */
-class W3chaptersControllerTest extends TestCase
+class W3ChaptersControllerTest extends TestCase
 {
     use IntegrationTestTrait;
 
@@ -22,7 +22,7 @@ class W3chaptersControllerTest extends TestCase
      * @var array<string>
      */
     protected $fixtures = [
-        'app.W3chapters',
+        'app.W3Chapters',
         'app.W3lessons',
         'app.W3chapterTypes',
         'app.W3chapterAccesses',
@@ -35,7 +35,7 @@ class W3chaptersControllerTest extends TestCase
      * Test index method
      *
      * @return void
-     * @uses \App\Controller\W3chaptersController::index()
+     * @uses \App\Controller\W3ChaptersController::index()
      */
     public function testIndex(): void
     {
@@ -46,7 +46,7 @@ class W3chaptersControllerTest extends TestCase
      * Test view method
      *
      * @return void
-     * @uses \App\Controller\W3chaptersController::view()
+     * @uses \App\Controller\W3ChaptersController::view()
      */
     public function testView(): void
     {
@@ -57,7 +57,7 @@ class W3chaptersControllerTest extends TestCase
      * Test add method
      *
      * @return void
-     * @uses \App\Controller\W3chaptersController::add()
+     * @uses \App\Controller\W3ChaptersController::add()
      */
     public function testAdd(): void
     {
@@ -68,7 +68,7 @@ class W3chaptersControllerTest extends TestCase
      * Test edit method
      *
      * @return void
-     * @uses \App\Controller\W3chaptersController::edit()
+     * @uses \App\Controller\W3ChaptersController::edit()
      */
     public function testEdit(): void
     {
@@ -79,7 +79,7 @@ class W3chaptersControllerTest extends TestCase
      * Test delete method
      *
      * @return void
-     * @uses \App\Controller\W3chaptersController::delete()
+     * @uses \App\Controller\W3ChaptersController::delete()
      */
     public function testDelete(): void
     {

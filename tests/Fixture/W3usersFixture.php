@@ -27,11 +27,11 @@ class W3usersFixture extends TestFixture
                 'email' => 'Lorem ipsum dolor sit amet',
                 'revisioncount' => 1,
                 'changescount' => 1,
-                'signuptime' => '2023-08-06 09:10:00',
-                'lastpassword' => '2023-08-06 09:10:00',
-                'lastlogin' => '2023-08-06 09:10:00',
-                'created' => '2023-08-06 09:10:00',
-                'modified' => '2023-08-06 09:10:00',
+                'signuptime' => '2024-03-03 11:16:01',
+                'lastpassword' => '2024-03-03 11:16:01',
+                'lastlogin' => '2024-03-03 11:16:01',
+                'created' => '2024-03-03 11:16:01',
+                'modified' => '2024-03-03 11:16:01',
             ],
         ];
         parent::init();

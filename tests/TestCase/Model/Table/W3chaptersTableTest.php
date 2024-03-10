@@ -3,20 +3,20 @@ declare(strict_types=1);
 
 namespace App\Test\TestCase\Model\Table;
 
-use App\Model\Table\W3chaptersTable;
+use App\Model\Table\W3ChaptersTable;
 use Cake\TestSuite\TestCase;
 
 /**
- * App\Model\Table\W3chaptersTable Test Case
+ * App\Model\Table\W3ChaptersTable Test Case
  */
-class W3chaptersTableTest extends TestCase
+class W3ChaptersTableTest extends TestCase
 {
     /**
      * Test subject
      *
-     * @var \App\Model\Table\W3chaptersTable
+     * @var \App\Model\Table\W3ChaptersTable
      */
-    protected $W3chapters;
+    protected $W3Chapters;
 
     /**
      * Fixtures
@@ -24,7 +24,7 @@ class W3chaptersTableTest extends TestCase
      * @var array<string>
      */
     protected $fixtures = [
-        'app.W3chapters',
+        'app.W3Chapters',
         'app.W3lessons',
         'app.W3chapterTypes',
         'app.W3chapterAccesses',
@@ -41,8 +41,8 @@ class W3chaptersTableTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $config = $this->getTableLocator()->exists('W3chapters') ? [] : ['className' => W3chaptersTable::class];
-        $this->W3chapters = $this->getTableLocator()->get('W3chapters', $config);
+        $config = $this->getTableLocator()->exists('W3Chapters') ? [] : ['className' => W3ChaptersTable::class];
+        $this->W3Chapters = $this->getTableLocator()->get('W3Chapters', $config);
     }
 
     /**
@@ -52,30 +52,8 @@ class W3chaptersTableTest extends TestCase
      */
     protected function tearDown(): void
     {
-        unset($this->W3chapters);
+        unset($this->W3Chapters);
 
         parent::tearDown();
-    }
-
-    /**
-     * Test validationDefault method
-     *
-     * @return void
-     * @uses \App\Model\Table\W3chaptersTable::validationDefault()
-     */
-    public function testValidationDefault(): void
-    {
-        $this->markTestIncomplete('Not implemented yet.');
-    }
-
-    /**
-     * Test buildRules method
-     *
-     * @return void
-     * @uses \App\Model\Table\W3chaptersTable::buildRules()
-     */
-    public function testBuildRules(): void
-    {
-        $this->markTestIncomplete('Not implemented yet.');
     }
 }

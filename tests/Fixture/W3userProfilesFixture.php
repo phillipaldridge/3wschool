@@ -22,10 +22,10 @@ class W3userProfilesFixture extends TestFixture
                 'id' => 1,
                 'w3user_id' => 1,
                 'active' => 1,
-                'dateStart' => '2023-08-06',
-                'dateEnd' => '2023-08-06',
-                'created' => '2023-08-06 09:12:31',
-                'modified' => '2023-08-06 09:12:31',
+                'dateStart' => '2024-03-03',
+                'dateEnd' => '2024-03-03',
+                'created' => '2024-03-03 11:15:51',
+                'modified' => '2024-03-03 11:15:51',
             ],
         ];
         parent::init();

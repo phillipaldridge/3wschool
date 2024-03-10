@@ -13,7 +13,7 @@
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  * @var \App\View\AppView $this
  */
-
+ 
 $cakeDescription = '3wschool';
 ?>
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ $cakeDescription = '3wschool';
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
-    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake']) ?>
+    <?= $this->Html->css(['normalize.min', 'milligram.min', 'custom']) ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -45,29 +45,32 @@ $cakeDescription = '3wschool';
             <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
-            <a href="http://localhost/w3school/w3defaults">Defaults</a>
+            <a href="http://localhost/3wschool/systemdefaults">System defaults</a>
+            <a href="http://localhost/3wschool/programs">Programs</a>
+            <a href="http://localhost/3wschool/program-types">Program Types</a>
+            <a href="http://localhost/3wschool/programruns">Program Runs</a>
+            <a href="http://localhost/3wschool/programrun-types">Program Run Types</a>
+            <br>
+            
+            <a href="http://localhost/3wschool/courses">Courses</a>
+            <a href="http://localhost/3wschool/course-types">Course Types</a>
+            <a href="http://localhost/3wschool/classrooms">Classrooms</a>
+            <a href="http://localhost/3wschool/classroom-types">Classroom Types</a>
+            <a href="http://localhost/3wschool/lessons">Lessons</a>
+            <a href="http://localhost/3wschool/lesson-types">Lesson Types</a>
+            <br>
+            <a href="http://localhost/3wschool/chapters">Chapters</a>
+            <a href="http://localhost/3wschool/chapter-types">Chapter Types</a>
+            <a href="http://localhost/3wschool/chapter-paths">Chapter paths</a>
+            <a href="http://localhost/3wschool/chapter-rules">Chapter rules</a>
+            <a href="http://localhost/3wschool/chapter-actions">Chapter actions</a>
+            <a href="http://localhost/3wschool/chapter-accesses">Chapter accesses</a>
+            <br>
 
-            <a href="http://localhost/w3school/w3courses">Courses</a>
-            <a href="http://localhost/w3school/w3course-types">Course Types</a>
-            <a href="http://localhost/w3school/w3classes">Classes</a>
-            <a href="http://localhost/w3school/w3class-types">Class Types</a>
-            <a href="http://localhost/w3school/w3lessons">Lessons</a>
-            <a href="http://localhost/w3school/w3lesson-types">Lesson Types</a><br>
-            <a href="http://localhost/w3school/w3chapters">Chapters</a>
-            <a href="http://localhost/w3school/w3chapter-types">Chapter Types</a>
-            <a href="http://localhost/w3school/w3chapter-paths">Chapter paths</a>
-            <a href="http://localhost/w3school/w3chapter-rules">Chapter rules</a>
-            <a href="http://localhost/w3school/w3chapter-actions">Chapter actions</a>
-            <br>
-            <a href="http://localhost/w3school/w3programs">Programs</a>
-            <a href="http://localhost/w3school/w3program-types">Program Types</a>
-            <a href="http://localhost/w3school/w3programruns">Program Runs</a>
-            <a href="http://localhost/w3school/w3programrun-types">Program Run Types</a>
-            <br>
-            <a href="http://localhost/w3school/w3users">Users</a>
-            <a href="http://localhost/w3school/w3user-profiles">User profiles</a>
-            <a href="http://localhost/w3school/w3user-addresses">User addreses</a>
-            <a href="http://localhost/w3school/w3user-trackings">User trackings</a>
+            <a href="http://localhost/3wschool/users">Users</a>
+            <a href="http://localhost/3wschool/user-profiles">User profiles</a>
+            <a href="http://localhost/3wschool/user-addresses">User addreses</a>
+            <a href="http://localhost/3wschool/user-trackings">User trackings</a>
         </div>
     </nav>
     <main class="main">
@@ -78,5 +81,8 @@ $cakeDescription = '3wschool';
     </main>
     <footer>
     </footer>
-</body>
+    </body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<?= $this->fetch('jquery'); ?>
 </html>

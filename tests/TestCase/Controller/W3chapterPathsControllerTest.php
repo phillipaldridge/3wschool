@@ -24,6 +24,7 @@ class W3chapterPathsControllerTest extends TestCase
     protected $fixtures = [
         'app.W3chapterPaths',
         'app.W3chapters',
+        'app.W3targetchapters',
         'app.W3chapterRules',
         'app.W3chapterActions',
     ];

@@ -6,10 +6,16 @@ namespace App\Test\Fixture;
 use Cake\TestSuite\Fixture\TestFixture;
 
 /**
- * W3chaptersFixture
+ * W3ChaptersFixture
  */
-class W3chaptersFixture extends TestFixture
+class W3ChaptersFixture extends TestFixture
 {
+    /**
+     * Table name
+     *
+     * @var string
+     */
+    public $table = 'w3chapters';
     /**
      * Init method
      *
@@ -27,12 +33,11 @@ class W3chaptersFixture extends TestFixture
                 'name' => 'Lorem ipsum dolor sit amet',
                 'active' => 1,
                 'position' => 1,
-                'access' => 'Lorem ip',
                 'unitValue' => 1,
                 'passValue' => 1,
                 'failValue' => 1,
-                'created' => '2023-08-19 09:12:49',
-                'modified' => '2023-08-19 09:12:49',
+                'created' => '2024-03-10 10:14:18',
+                'modified' => '2024-03-10 10:14:18',
             ],
         ];
         parent::init();
